@@ -1,4 +1,4 @@
-<h1 style="color:blue">Hospital Mangment System Made with Laravel 8</h1>
+<h1 style="color:blue">HealthHub: Hospital Managment System Made with Laravel 8</h1>
 <h3>Front End</h3>
 
 <img src="FrontEnd.png" />

@@ -10,7 +10,7 @@
                <h2>
                   <span class="center"><span class="icon"><img src="{{ ($app) ? config('app.url').'storage/'. $app->icon_logo_path:'images/icon-logo.png' }}" alt="#" /></span></span>
                   <a href="" class="typewrite" data-period="2000" data-type='[]'>
-                  <span class="wrap">Welcome to HealthCare </span>
+                  <span class="wrap">Welcome to HealthHub </span>
                   </a>
                </h2>
             </div>

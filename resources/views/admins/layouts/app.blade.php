@@ -11,6 +11,7 @@
     <link href="{{  config('app.url') }}assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
     <link href="{{  config('app.url') }}assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
     <link href="{{  config('app.url') }}assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="{{  config('app.url') }}images/fevicon.ico" type="image/x-icon">
     <link href="{{  config('app.url') }}assets/css/master.css" rel="stylesheet">
     {{-- <link href="{{  config('app.url') }}assets/vendor/chartsjs/Chart.min.css" rel="stylesheet"> --}}
     <link href="{{  config('app.url') }}assets/vendor/flagiconcss/css/flag-icon.min.css" rel="stylesheet">
@@ -27,7 +28,7 @@
 <body class="clinic_version">
 
     <div class="wrapper">
-        <nav id="sidebar" class="active mt-4">
+        <nav id="sidebar" class="mt-4">
             <ul class="mt-5 list-unstyled components text-secondary">
                 {{-- @auth --}}
                 <li>
@@ -109,7 +110,7 @@
 
             </ul>
         </nav>
-        <div id="body" class="active">
+        <div id="body" class="">
             <nav class="navbar navbar-expand-lg fixed-top navbar-white bg-white">
                 <button type="button" id="sidebarCollapse" class="btn btn-light"><i
                         class="fas fa-bars"></i><span></span></button>

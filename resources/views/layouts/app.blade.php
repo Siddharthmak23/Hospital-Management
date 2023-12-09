@@ -55,7 +55,7 @@
                                 <a class="navbar-brand" href="{{ url('/') }}"><img
                                         src="{{ $app ? config('app.url') . 'storage/' . $app->logo_path :  config("app.url").'images/icon-logo.png' }}"
                                         alt="logo image ">
-                                        <span>HealthCare Hospital</span></a>
+                                        <span>HealthHub</span></a>
                 </div>
                 <div class="right-header">
                     <div class="header-info">
@@ -125,7 +125,7 @@
                     <div class="logo padding">
                         <a href="{{ url('/') }}"><img src="{{ ($app) ? 'storage/'.$app->logo_path :  config("app.url").'images/icon-logo.png' }}"
                                 alt="">
-                                <span>HealthCare Hospital</span>
+                                <span>HealthHub</span>
                                 </a>
                         <p>{{ $app ? $app->description : 'hi this isLocavore pork belly scen ester pine est chill wave microdosing pop uple itarian cliche artisan.' }}
                         </p>
