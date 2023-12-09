@@ -35,7 +35,7 @@
                                                     class="text-red-500 text-danger text-xs">{{ $message }}</span>
                                             @enderror
                                         </div>
-                                        <div class="form-group" x-data="{ isUploading: false, progress: 0 }"
+                                        {{-- <div class="form-group" x-data="{ isUploading: false, progress: 0 }"
                                             x-on:livewire-upload-start="isUploading = true"
                                             x-on:livewire-upload-finish="isUploading = false"
                                             x-on:livewire-upload-error="isUploading = false"
@@ -66,8 +66,8 @@
                                                 <img width="20%" height="20%"
                                                     src="{{ env('APP_URL') . 'storage/' . $c_logo }}">
                                             @endif
-                                        </div>
-                                        <div class="form-group" x-data="{ isUploading: false, progress: 0 }"
+                                        </div> --}}
+                                        {{-- <div class="form-group" x-data="{ isUploading: false, progress: 0 }"
                                             x-on:livewire-upload-start="isUploading = true"
                                             x-on:livewire-upload-finish="isUploading = false"
                                             x-on:livewire-upload-error="isUploading = false"
@@ -97,9 +97,9 @@
                                                 <img width="20%" height="20%"
                                                     src="{{ env('APP_URL') . 'storage/' . $c_favicon }}">
                                             @endif
-                                        </div>
+                                        </div> --}}
 
-                                        <div class="form-group" x-data="{ isUploading: false, progress: 0 }"
+                                        {{-- <div class="form-group" x-data="{ isUploading: false, progress: 0 }"
                                             x-on:livewire-upload-start="isUploading = true"
                                             x-on:livewire-upload-finish="isUploading = false"
                                             x-on:livewire-upload-error="isUploading = false"
@@ -131,7 +131,7 @@
                                                 <img width="20%" height="20%"
                                                     src="{{ env('APP_URL') . 'storage/' . $c_icon_logo }}">
                                             @endif
-                                        </div>
+                                        </div> --}}
 
                                         <div class="form-group">
                                             <label for="email" class="form-control-label">Business Email</label>
@@ -143,7 +143,7 @@
                                         <div class="form-group">
                                             <label for="business_phone" class="form-control-label">Business
                                                 Phone</label>
-                                            <input type="text" placeholder="+92..........."
+                                            <input type="text" placeholder="+91..........."
                                                 wire:model.lazy="business_phone" name="business_phone"
                                                 class="form-control">
                                             @error('business_phone') <span
@@ -159,8 +159,8 @@
                                             @enderror
                                         </div>
                                         <div class="form-group">
-                                            <label for="working_horse" class="form-control-label">Working Horse</label>
-                                            <input type="text" placeholder="Working Horse"
+                                            <label for="working_horse" class="form-control-label">Working Hours</label>
+                                            <input type="text" placeholder="Working Hours"
                                                 wire:model.lazy="working_horse" name="working_horse"
                                                 class="form-control">
                                             <small class="text-small text-info">i.e: 7:00am - 8:00pm</small>
