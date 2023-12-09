@@ -42,7 +42,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <div class="col-md-6 offset-md-1">
+                            <div class="col-md-6 offset-md-1 remember">
                                 <label class="form-check-label" for="remember">
                                     {{ __('Remember Me') }}
                                 </label>
@@ -50,7 +50,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group row loginbtn">
                             <div class="col-md-6 offset-md-4 text-center">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
@@ -58,7 +58,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group row loginbtn">
                             <div class="col-md-6 offset-md-4 text-center">
                                 @if (Route::has('password.request'))
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
