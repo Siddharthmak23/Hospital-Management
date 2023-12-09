@@ -40,7 +40,6 @@ p {
 }
 
   .navbar-brand span{
-    font-family: 'Arvo', serif;
     color: #1f1f1f;
     font-size: 26px;
     margin-left:10px;
@@ -65,7 +64,7 @@ p {
 .header-bottom {
     float: left;
     width: 100%;
-    background: #157fda;
+    background: #35c37f;
 }
 header {
     float: left;
@@ -98,7 +97,7 @@ header {
 }
 .header-bottom nav.main-menu ul.nav.navbar-nav > li a:hover, .header-bottom nav.main-menu ul.nav.navbar-nav > li a:focus, .header-bottom nav.main-menu ul.nav.navbar-nav > li a.active {
     color: #fff;
-    background: #39b49b;
+    background: #1e965d;
     box-shadow: 5px 5px 0 0px #fff;
 }
 .header-top {
@@ -125,7 +124,7 @@ header {
 }
 .info-inner span.icontop {
     float: left;
-    background: #157fda;
+    background: #35c37f;
     width: 45px;
     height: 45px;
     text-align: center;
@@ -226,7 +225,7 @@ header {
 .appointment-form h3 {
     float: left;
     margin: 0;
-    background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
+    background: linear-gradient(90deg, rgba(53,195,127,1) 0%, rgba(154,238,255,1) 79%);
     width: 100%;
     color: #fff;
     padding: 15px 25px;
@@ -270,7 +269,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid #39b49b 3px;
+    border: solid #1e965d 3px;
 }
 .icon img {
     width: 50px;
@@ -289,7 +288,7 @@ header {
 }
 .info-inner:hover span.icontop,.info-inner:focus span.icontop {
     border-radius: 100%;
-    background: #39b49b;
+    background: #1e965d;
 }
 .typewrite {
     font-size: 60px;
@@ -427,7 +426,7 @@ body.clinic_version .first-section h2 {
 .heading h2::after {
     width: 50px;
     height: 4px;
-    background: #39b49b;
+    background: #1e965d;
     content: "";
     display: block;
     margin: 10px auto 0;
@@ -459,7 +458,7 @@ body.clinic_version div#getintouch {
     color: #ffffff;
     padding: 12px 0 12px;
     margin: 0;
-    background: #157fda;
+    background: #35c37f;
     text-align: center;
 }
 hr.hr1 {
@@ -474,7 +473,7 @@ hr.hr1 {
 }
 .services {
     width: 100%;
-    background: url('../images/service-bg.png');
+   background: linear-gradient(90deg, rgba(53,195,127,1) 0%, rgba(154,238,255,1) 79%);
     padding: 75px 0;
     background-size: cover;
     background-attachment: fixed;
@@ -586,7 +585,7 @@ hr.hr1 {
     display: flex;
 }
 .form-group button {
-    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    background: linear-gradient(90deg, rgba(53,195,127,1) 0%, rgba(154,238,255,1) 79%);
     border: none;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -776,7 +775,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 #submitButton {
     padding: 15px 30px;
-    background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+    background: linear-gradient(90deg, rgba(53,195,127,1) 0%, rgba(154,238,255,1) 79%);
     color: #fff;
     border-radius: 50px;
     margin-top: 10px;
@@ -786,7 +785,7 @@ body.clinic_version .footer .widget-title h3 {
     background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);
 }
 .footer-area {
-    background: #bee1ff;
+    background: #c9fee5;
     padding: 80px 0px;
     color: #fff;
     font-size: 14px;
@@ -834,7 +833,7 @@ display: flex;
     color: #222;
     font-size: 22px;
     font-weight: 600;
-    border-left: solid #157fda 5px;
+    border-left: solid #35c37f 5px;
     padding: 0 0 0 15px;
     margin-bottom: 24px;
 }
@@ -852,7 +851,7 @@ display: flex;
 }
 .copyright-area {
     padding: 20px 0px;
-    background: #a4b2bf;
+    background: #35c37f;
     color: #fff;
 	float:left;
 	width:100%;
@@ -880,7 +879,7 @@ display: flex;
     font-size: 25px;
     width: 30px;
     text-align: center;
-	color: #157fda;
+	color: #35c37f;
 }
 .preloader {
     width: 350px;
@@ -999,7 +998,7 @@ display: flex;
     left: 0;
     top: 7px;
     font-size: 18px;
-    color: #39b49b;
+    color: #1e965d;
 }
 .banner-inner {
     float: left;
@@ -1014,7 +1013,7 @@ display: flex;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    border-bottom: solid #157fda 2px;
+    border-bottom: solid #35c37f 2px;
 }
 .banner-inner::after {
     content: "";
@@ -1044,7 +1043,7 @@ display: flex;
     display: block;
     width: 50px;
     height: 3px;
-    background: #39b49b;
+    background: #1e965d;
     margin: 8px auto 5px;
 }
 .breadcrum {
@@ -1062,7 +1061,7 @@ display: flex;
     margin-top: 5px;
 }
 .breadcrum ul li a {
-	color:#39b49b;
+	color:#1e965d;
 }
 .box {
     float: left;
@@ -1071,7 +1070,7 @@ display: flex;
     margin-top: 118px;
     box-shadow: 0 0 40px -20px rgba(0,0,0,.4);
     margin-bottom: -62px;
-    border: solid #157fda 2px;
+    border: solid #35c37f 2px;
 }
 .about2 {
     float: left;
@@ -1103,9 +1102,6 @@ display: flex;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 25px;
-}
-.iconcont a {
-    font-family: 'Arvo', serif;
 }
 .services-paert {
     float: left;

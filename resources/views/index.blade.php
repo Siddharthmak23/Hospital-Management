@@ -34,7 +34,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
          <div class="row">
-            <div class="service-time middle" style="background:#0071d1;">
+            <div class="service-time middle" style="background:#35c37f;">
                <span class="info-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
                <h3>Working Hours</h3>
                <div class="time-table-section">
