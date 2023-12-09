@@ -11,6 +11,7 @@
     <link href="{{  config('app.url') }}assets/vendor/fontawesome/css/solid.min.css" rel="stylesheet">
     <link href="{{  config('app.url') }}assets/vendor/fontawesome/css/brands.min.css" rel="stylesheet">
     <link href="{{  config('app.url') }}assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="{{  config('app.url') }}images/fevicon.ico" type="image/x-icon">
     <link href="{{  config('app.url') }}assets/css/master.css" rel="stylesheet">
     {{-- <link href="{{  config('app.url') }}assets/vendor/chartsjs/Chart.min.css" rel="stylesheet"> --}}
     <link href="{{  config('app.url') }}assets/vendor/flagiconcss/css/flag-icon.min.css" rel="stylesheet">
@@ -27,7 +28,7 @@
 <body class="clinic_version">
 
     <div class="wrapper">
-        <nav id="sidebar" class="active mt-4">
+        <nav id="sidebar" class="mt-4">
             <ul class="mt-5 list-unstyled components text-secondary">
                 {{-- @auth --}}
                 <li>
@@ -84,7 +85,7 @@
                 <li>
                     <a href="{{ route('contactedus') }}"><i class="fas fa-file-alt"></i>Contacted Messages</a>
                 </li>
-                <li>
+                {{-- <li>
                     <a href="#authmenu" data-toggle="collapse" aria-expanded="false"
                         class="dropdown-toggle no-caret-down"><i class="fas fa-user-shield"></i> Authentication</a>
                     <ul class="collapse list-unstyled" id="authmenu">
@@ -96,26 +97,26 @@
                             <a href="forgot-password.html"><i class="fas fa-user-lock"></i> Forgot password</a>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
                 <li>
                     <a href="{{ route('admin_settings') }}"><i class="fas fa-cog"></i>Settings</a>
                 </li>
                 {{-- @endauth --}}
                 {{-- @guest --}}
-                <li>
+                {{-- <li>
                     <a href="signup.html"><i class="fas fa-user-plus"></i> Signup</a>
-                </li>
+                </li> --}}
                 {{-- @endguest --}}
 
             </ul>
         </nav>
-        <div id="body" class="active">
+        <div id="body" class="">
             <nav class="navbar navbar-expand-lg fixed-top navbar-white bg-white">
                 <button type="button" id="sidebarCollapse" class="btn btn-light"><i
                         class="fas fa-bars"></i><span></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item dropdown">
+                        {{-- <li class="nav-item dropdown">
                             <div class="nav-dropdown">
                                 <a href="" class="nav-item nav-link dropdown-toggle text-secondary"
                                     data-toggle="dropdown"><i class="fas fa-link"></i> <span>Quick Access</span> <i
@@ -136,7 +137,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </li>
+                        </li> --}}
                         <li class="nav-item dropdown">
                             <div class="nav-dropdown">
                                 <a href="" class="nav-item nav-link dropdown-toggle text-secondary"
@@ -145,14 +146,15 @@
                                         class="fas fa-caret-down"></i></a>
                                 <div class="dropdown-menu dropdown-menu-right nav-link-menu">
                                     <ul class="nav-list">
-                                        <li><a href="" class="dropdown-item"><i class="fas fa-address-card"></i>
+                                        {{-- <li><a href="" class="dropdown-item"><i class="fas fa-address-card"></i>
                                                 Profile</a></li>
                                         <li><a href="" class="dropdown-item"><i class="fas fa-envelope"></i>
                                                 Messages</a></li>
                                         <li><a href="" class="dropdown-item"><i class="fas fa-cog"></i> Settings</a>
-                                        </li>
+                                        </li> --}}
                                         <div class="dropdown-divider"></div>
-                                        <li><a href="{{ route('login') }}" class="dropdown-item"><i
+                                        <li><a href="{{ route('index') }}" class="dropdown-item">
+                                            <i
                                                     class="fas fa-sign-out-alt"></i> Logout</a></li>
                                     </ul>
                                 </div>

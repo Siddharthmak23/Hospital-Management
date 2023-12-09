@@ -1,4 +1,4 @@
-<h1 style="color:blue">Hospital Mangment System Made with Laravel 8</h1>
+<h1 style="color:blue">HealthHub: Hospital Managment System Made with Laravel 8</h1>
 <h3>Front End</h3>
 
 <img src="FrontEnd.png" />
@@ -25,7 +25,5 @@
     <li> > php artisan serve</li>
     <li> <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> </li>
     </ul>
-    <p style="color:yellow">If you like our project please leave a star ❤<p>
-
-
+   
 
