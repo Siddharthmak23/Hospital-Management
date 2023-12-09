@@ -51,11 +51,15 @@
     <header>
         <div class="header-top wow fadeIn">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}"><img
-                        src="{{ $app ? config('app.url') . 'storage/' . $app->logo_path :  config("app.url").'images/logo.png' }}"
-                        alt="logo image "></a>
+                <div class="logo-title">
+                                <a class="navbar-brand" href="{{ url('/') }}"><img
+                                        src="{{ $app ? config('app.url') . 'storage/' . $app->logo_path :  config("app.url").'images/icon-logo.png' }}"
+                                        alt="logo image ">
+                                        <span>HealthCare Hospital</span></a>
+                </div>
                 <div class="right-header">
                     <div class="header-info">
+                        <!--
                         <div class="info-inner">
                             <span class="icontop"><img src="{{ config('app.url') }}images/phone-icon.png" alt="#"></span>
                             <span class="iconcont"><a
@@ -66,6 +70,7 @@
                             <span class="iconcont"><a data-scroll
                                     href="mailto:{{ $app ? $app->business_email : 'tauseed@test.com' }}">{{ $app ? $app->business_email : 'tauseed@test.com' }}</a></span>
                         </div>
+                        -->
                         <div class="info-inner">
                             <span class="icontop"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
                             <span class="iconcont"><a data-scroll href="#">Daily:
@@ -91,8 +96,6 @@
                                     href="{{ url('/services') }}">Services</a></li>
                             <li onclick="check_active('Doctors')"><a id="Doctors" data-scroll
                                     href="{{ url('docters') }}">Doctors</a></li>
-                            <li onclick="check_active('Departments')"><a id="Departments" data-scroll
-                                    href="#departments">Departments</a></li>
                             <li onclick="check_active('About')"><a id="About" data-scroll
                                     href="{{ url('/about') }}">About us</a></li>
                             <li onclick="check_active('Contact')"><a id="Contact" data-scroll
@@ -120,8 +123,10 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="logo padding">
-                        <a href="{{ url('/') }}"><img src="{{ ($app) ? 'storage/'.$app->logo_path :  config("app.url").'images/logo.png' }}"
-                                alt=""></a>
+                        <a href="{{ url('/') }}"><img src="{{ ($app) ? 'storage/'.$app->logo_path :  config("app.url").'images/icon-logo.png' }}"
+                                alt="">
+                                <span>HealthCare Hospital</span>
+                                </a>
                         <p>{{ $app ? $app->description : 'hi this isLocavore pork belly scen ester pine est chill wave microdosing pop uple itarian cliche artisan.' }}
                         </p>
                     </div>
@@ -133,7 +138,7 @@
                                 aria-hidden="true"></i>{{ $app ? $app->address : 'distric abc P/O xyz sorana' }}
                         </p>
                         <p><i class="fa fa-paper-plane"
-                                aria-hidden="true"></i>{{ $app ? $app->business_email : 'tauseed@test.com' }}
+                                aria-hidden="true"></i>{{ $app ? $app->business_email : 'siddharthmak@gmail.com' }}
                         </p>
                         <p><i class="fa fa-phone"
                                 aria-hidden="true"></i>{{ $app ? $app->business_phone : '123 123 123' }}</p>

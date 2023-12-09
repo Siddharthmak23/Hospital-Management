@@ -2,15 +2,15 @@
 @section('content')
 @livewireStyles
 @livewireScripts
-<div id="home" class="parallax first-section wow fadeIn" data-stellar-background-ratio="0.4" style="background-image:url('images/slider-bg.png');" {{ $app = App\Models\general_settings::latest()->first() }}>
+<div id="home" class="parallax first-section wow fadeIn" data-stellar-background-ratio="0.4" style="background-image:url('images/slider-bg.jpg');" {{ $app = App\Models\general_settings::latest()->first() }}>
    <div class="container">
       <div class="row">
          <div class="col-md-12 col-sm-12">
             <div class="text-contant">
                <h2>
                   <span class="center"><span class="icon"><img src="{{ ($app) ? config('app.url').'storage/'. $app->icon_logo_path:'images/icon-logo.png' }}" alt="#" /></span></span>
-                  <a href="" class="typewrite" data-period="2000" data-type='[ "Welcome to Life Care", "We Care Your Health", "We are Expert!" ]'>
-                  <span class="wrap"></span>
+                  <a href="" class="typewrite" data-period="2000" data-type='[]'>
+                  <span class="wrap">Welcome to HealthCare </span>
                   </a>
                </h2>
             </div>
@@ -23,7 +23,7 @@
 <!-- end section -->
 <div id="time-table" class="time-table-section">
    <div class="container">
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style = "visibility:hidden">
          <div class="row">
             <div class="service-time one" style="background:#2895f1;">
                <span class="info-icon"><i class="fa fa-ambulance" aria-hidden="true"></i></span>
@@ -34,7 +34,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
          <div class="row">
-            <div class="service-time middle" style="background:#0071d1;">
+            <div class="service-time middle" style="background:#35c37f;">
                <span class="info-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
                <h3>Working Hours</h3>
                <div class="time-table-section">
@@ -47,7 +47,7 @@
             </div>
          </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style = "visibility:hidden">
          <div class="row">
             <div class="service-time three" style="background:#0060b1;">
                <span class="info-icon"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
@@ -466,12 +466,6 @@
 </div>
 <!-- end section -->
 <div id="getintouch" class="section wb wow fadeIn" style="padding-bottom:0;">
-   <div class="container">
-      <div class="heading">
-         <span class="icon-logo"><img src="{{ ($app) ? 'storage/'.$app->icon_logo_path:'images/icon-logo.png' }}" alt="#"></span>
-         <h2>Get in Touch</h2>
-      </div>
-   </div>
 @livewire('contactus')
 </div>
 
